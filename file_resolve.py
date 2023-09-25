@@ -15,6 +15,16 @@ from operator import itemgetter
 #*Done at 2021/9/25
 
 class excel:
+    '''
+    Class Excel - A "Powerful" Tool To Help You Resolve Student List
+    ================================================================
+    Methods
+    -------
+    >>> excel.resolve.file_read
+    >>> excel.resolve.student_list_resolve
+    >>> excel.resolve.class_list_resolve
+    >>> excel.resolve.file_check
+    '''
     def __init__(self) -> None:
         pass
     
@@ -51,7 +61,7 @@ class excel:
             return student_list
         
         @classmethod
-        def class_list(self, excel_file_path = str, sheet_index = 0):
+        def class_list_resolve(self, excel_file_path = str, sheet_index = 0):
             student_sheet = self.file_resolve(excel_file_path , sheet_index)
             class_list = []
 
