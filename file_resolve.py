@@ -16,7 +16,7 @@ from operator import itemgetter
 
 class excel:
     '''
-    Class Excel - A "Powerful" Tool To Help You Resolve Student List
+    A "Powerful" Tool To Help You Resolve XLSX Student List
     ================================================================
     Methods
     -------
